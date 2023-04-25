@@ -1,9 +1,16 @@
-import './App.css';
+import "./App.css";
+import Container from "./components/Container";
+import Header from "./components/Header";
+import Titulo from "./components/Titulo";
 
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Header />
+      <Container>
+        <Titulo>Área Administrativa</Titulo>
+      </Container>
+    </>
   );
 }
 
