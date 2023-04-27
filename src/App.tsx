@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Container>
         <Titulo>Área Administrativa</Titulo>
-        <Tabela />
+        <Tabela consultas={dados}/>
       </Container>
       <Footer />
     </>
