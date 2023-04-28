@@ -1,5 +1,12 @@
+Para Clonar o Projeto use o GitClone
+para rodar o projeto no modo de desenvolvimento use o npm Start ou Yarn Start
+Para rodar p db.json use o npm run api..
 
-![React com Typescript: desenvolvendo uma área administrativa com MUI, Recharts e Styled Components](https://imgur.com/Qgf3van.png)
+![cabeçalho](https://user-images.githubusercontent.com/106413124/235029489-c16f2402-a05b-4eb8-b846-d20d5319844e.png)
+
+
+![footer](https://user-images.githubusercontent.com/106413124/235029500-4b675953-3e64-4e7b-98ec-0f18909da851.png)
+
 
 # React com Typescript: desenvolvendo uma área administrativa
 
