@@ -59,12 +59,12 @@ function Card({ profissional }: { profissional: IProfissional }) {
                     alt={`Foto de perfil do profissional ${profissional.nome}`}/>
                 </ItemEstilizado>
                 <ItemInformacoesEstilizado>
-                    <ParagrafoEstilizado>{profissional.nome}</ParagrafoEstilizado>
+                    <ParagrafoNomeEstilizado>{profissional.nome}</ParagrafoNomeEstilizado>
                     <ParagrafoEstilizado>{profissional.especialidade}</ParagrafoEstilizado>
                 </ItemInformacoesEstilizado>
                 <ItemEstilizado>
                     <Rating 
-                        name="simple-controled"
+                        name="simple-controlled"
                         value={profissional.nota}
                         readOnly={true}
                     />

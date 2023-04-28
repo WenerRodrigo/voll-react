@@ -7,7 +7,7 @@ export default function useFetch<T>({url} : {url : string}) {
     const [erro, setErro] = useState('');
 
     useEffect(() => {
-        fetch(`http://localhost:8080${url}`).then(
+        fetch(`http://localhost:8080/${url}`).then(
         resposta => resposta.json()
         ).then(dados => setDados(dados)).catch((erro => setErro(erro)))
     },[url])
